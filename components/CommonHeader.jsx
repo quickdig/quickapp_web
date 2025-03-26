@@ -21,7 +21,8 @@ const CommonHeader = () => {
                 <div className="navigation__menu hidden items-center md:flex space-x-6">
                     <NavLink href={"/"}>Home</NavLink>
                     <NavLink href={"/aboutus"}>About Us</NavLink>
-                    <NavLink href={"/blogs"}>Blogs</NavLink>
+                    <NavLink href={"/blog"}>Blogs</NavLink>
+                    <NavLink href={"/testimonial"}>Testimonial</NavLink>
                     <NavLink href={"/contact"}>Contact Us</NavLink>
                     <NavLink href={"/speaktoexpert"} className="bg-transparent uppercase rounded-full border-2 px-4 py-2 border-solid border-black">
                         Speak to an expert

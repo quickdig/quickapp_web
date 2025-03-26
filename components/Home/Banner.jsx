@@ -4,6 +4,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { circle, logo, scroll } from '@/untils/imgimport';
 import Image from 'next/image';
+import Link from 'next/link';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -71,10 +72,11 @@ const Banner = () => {
               </div>
               <div className='flex items-center gap-6 max-[1024px]:flex-col'>
                 <ul className='flex gap-4 max-[1024px]:flex-col'>
-                  <li>Home</li>
-                  <li>About Us</li>
-                  <li>Blogs</li>
-                  <li>Contact Us</li>
+                  <li><Link href={"/"}>Home</Link></li>
+                  <li><Link href={"/aboutus"}>About Us</Link></li>
+                  <li><Link href={"/blog"}>Blogs</Link></li>
+                  <li><Link href={"/testimonial"}>Testimonial</Link></li>
+                  <li><Link href={"/contact"}>Contact Us</Link></li>
                 </ul>
                 <button className='text-[#1B45CE] border-t-2 border-r-2 border-l-2 border-b-[5px] border-[#1B45CE] py-2 px-5 rounded-full'>SPEAK TO AN EXPERT</button>
               </div>
@@ -95,10 +97,11 @@ const Banner = () => {
               </div>
               <div className='flex items-center max-[1024px]:items-start gap-6 max-[1024px]:flex-col max-[1024px]:w-full'>
                 <ul className='flex gap-4 max-[1024px]:flex-col '>
-                  <li>Home</li>
-                  <li>About Us</li>
-                  <li>Blogs</li>
-                  <li>Contact Us</li>
+                  <li><Link href={"/"}>Home</Link></li>
+                  <li><Link href={"/aboutus"}>About Us</Link></li>
+                  <li><Link href={"/blog"}>Blogs</Link></li>
+                  <li><Link href={"/testimonial"}>Testimonial</Link></li>
+                  <li><Link href={"/contact"}>Contact Us</Link></li>
                 </ul>
                 <button className='text-[#1B45CE] border-t-2 border-r-2 border-l-2 border-b-[5px] border-[#1B45CE] py-2 px-5 rounded-full'>SPEAK TO AN EXPERT</button>
               </div>

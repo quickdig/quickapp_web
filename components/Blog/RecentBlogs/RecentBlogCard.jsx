@@ -26,7 +26,7 @@ const RecentBlogCard = ({ title, slug, image, date }) => {
 
             {/* Blog Link */}
             <div className="w-full text-left px-5">
-                <Link href="#" className="text-[22px] md:text-[25px] font-normal text-[#001F4F] hover:underline capitalize">
+                <Link href="/blog/we-activate-businesses-and-brands-for-the-digital-change" className="text-[22px] md:text-[25px] font-normal text-[#001F4F] hover:underline capitalize">
                     We Activate Businesses & Brands for the Digital Change
                 </Link>
             </div>

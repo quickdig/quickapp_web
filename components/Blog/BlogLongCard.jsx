@@ -23,14 +23,14 @@ const BlogLongCard = ({ date, image, title, description, slug }) => {
 
             {/* Content Box */}
             <div className="text_content flex flex-col items-start text-left w-full md:w-1/3 space-y-3">
-                <Link href="#" className="blog_header text-[25px] font-semibold text-[#001F4F] hover:underline capitalize">
+                <Link href="/blog/we-activate-businesses-and-brands-for-the-digital-change" className="blog_header text-[25px] font-semibold text-[#001F4F] hover:underline capitalize">
                     We Activate Businesses & Brands for the Digital Change
                 </Link>
                 <p className="text-sm text-[#001F4F] line-clamp-2">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit, curae posuere donec tellus eu egestas aliquet.
                 </p>
                 <Link
-                    href="#"
+                    href="/blog/we-activate-businesses-and-brands-for-the-digital-change"
                     className="w-auto bg-transparent uppercase text-[#001F4F] rounded-full border-2 px-6 py-2 border-solid border-[#001F4F] hover:bg-[#001F4F] hover:text-white transition"
                 >
                     Read More
